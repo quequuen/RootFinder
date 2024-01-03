@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+html {
+  font-size: 0;
+  font-family: "Roboto", "Nanum Gothic", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+section{
+  display: block;
+}
+picture {
+  font-size: 0;
+}
+picture img {
+  max-width: 100%;
+}
+
+
+section.on .section-content .motion .motion-content {
+  transform: translateY(0%);
+}
+
+[data-motion=content] {
+  display: block;
+  transform: translateY(80px);
+  opacity: 0;
+}
+
+article.on .article-content [data-motion=content] {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+.login span{
+	font-size:14px;
+}
+
+header .left-side .login .btn-login {
+  margin-left: 1500px;
+  width: 80px;
+  padding: 12px;
+  margin: 0 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+header .left-side .login input:a{
+	border:none;
+}
+header h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+header nav a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header nav > div {
+  position: relative;
+}
+header nav > div > a {
+  display: block;
+  font-size: 16px;
+  padding: 16px;
+}
+header nav > div:hover > a {
+  color: skyblue;
+}
+header nav > div:hover ul {
+  margin-top: 0;
+}
+header nav ul {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: -10px;
+  transition: opacity 400ms, margin-top 400ms;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 120px;
+  padding: 16px 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 3px 0px #444;
+  border-radius: 8px;
+  text-align: center;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  display: block;
+  font-size: 18px;
+  line-height: 1.25;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+header nav ul li a:hover {
+  color: skyblue;
+  background-color: rgba(200, 200, 200, 0.15);
+}
+/*메인 화면*/
+main h2 {
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+main .description p {
+  font-size: 18px;
+}
+main section + section {
+  padding-top: 120px;
+}
+main section .section-content {
+  position: relative;
+}
+main section .section-content .text {
+  text-align: center;
+}
+main section .section-content .text .description {
+  margin-top: 20px;
+}
+main section .section-content .text .description p + p {
+  margin-top: 16px;
+}
+
+#harmony {
+  padding-top: 100px;
+}
+#harmony .section-content picture {
+  display: block;
+  height: 600px;
+  background: url("../image/main_img.jpg") center/cover fixed;
+  filter: brightness(0.5);
+}
+#harmony .section-content picture img {
+  opacity: 0;
+}
+#harmony .section-content .text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 15px #000;
+}
+#harmony .section-content .text .description {
+  color: #eee;
+}
+
+
+#harmony .section-content .text .description .description_text{
+    margin: 0 auto;
+    width: 1000px;
+    height: 150px;
+    border: none;
+    border-radius: 1%;
+    background-color: rgb(77,77,77);
+}
+
+#harmony .section-content .text .description .description_text input{
+  width: 80%;
+  height: 50px;
+  padding-left: 15px;
+  border: none;
+  font-size: 20px;
+  color: #b3b3b3;
+  background: url(../image/search.gif) no-repeat white;
+  background-size: contain;
+  background-position: center right;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#harmony .section-content .text .description .description_text .last_search p{
+  position: absolute;
+  margin-left: 100px;
+  font-size: 14px;
+  color: white;
+}
+
+#harmony .section-content .text .description .description_text .last_search a{
+  color: white;
+  text-decoration: none;
+}
+
+#harmony .section-content .text .description .description_text .last_search a:hover{
+  color: skyblue;
+}
+
+#harmony .section-content .text .description .description_text .map p{
+  position: absolute;
+  margin-left: 780px;
+  color: white;
+  font-size: 13px;
+  
+}
+
+#harmony .section-content .text .description .description_text .map img{
+  max-width:  40px;
+  max-height: 30px;
+  position: absolute;
+  margin-left: 370px;
+  	
+}
+
+
+/*여행지 추천*/
+.one_page{
+  padding-top: 30px;
+  background: #f6f6f6;
+  width: 100%;
+  padding-bottom: 750px; /*색깔 범위 정하면 될듯*/
+}
+.two_page{
+  padding-top: 30px;
+  background: white;
+  width: 100%;
+  padding-bottom: 750px; /*색깔 범위 정하면 될듯*/
+}
+#trip .mbti{
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+#trip .mbti .text{
+  color: #363636;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  height: 92px;
+}
+#trip .mbti .sub_text{
+  font-size: 18px;
+  color: #808080;
+  text-align: center;
+  padding-top: 13px;
+  margin-bottom: 40px;
+}
+#trip .mbti .text h3{
+  text-align: center;
+  font-size: 32px;
+}
+
+#trip .mbti .picture .box{
+  display: block;
+  width: 348px;
+  height: 296px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 30px;
+  background: #fff;
+}
+#trip .mbti .picture .box .inner{
+  width: 100%;
+  height: 100px;
+  background: linear-gradient( to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 100px;
+}
+#trip .mbti .picture .box .inner .inner_text{
+  padding: 15px;
+  margin-top: 35px;
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+}
+#trip .mbti .picture .box .trip_picture{
+  width: 346px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  overflow: hidden;
+}
+#trip .mbti .picture .box .trip_inner{
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  top: 200px;
+  font-size: 14px;
+  color: #6f6f6f;
+  line-height: 20px;
+}
+#trip .mbti .picture .box .trip_inner .fr{
+  float: right;
+}
+#trip .mbti .picture .box .trip_inner .list_copy_icon{
+  background: url(../image/icon1.png) no-repeat -3px 0px;
+  background-size: contain;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+#trip .mbti .picture .box .trip_inner .list_view_icon{
+  background: url(../image/icon2.png) no-repeat -1px 1px;
+  background-size: contain;
+  padding-left: 21px;
+  margin-left: 10px
+}
+
+#trip .mbti .picture .box .trip_inner .list_spot_icon{
+  background: url(../image/icon3.png) no-repeat 0px 1px;
+  background-size: contain;
+  padding-left: 21px;
+  margin-left: 10px
+}
+
+#trip .mbti .picture .box .trip_inner .list_city{
+  margin-top: 4px;
+}
+#trip .mbti .picture .box .trip_inner .list_user{
+  margin-top: 4px;
+  padding-left: 20px;
+  background: url(../image/icon4.png) no-repeat -3px 1px;
+  background-size: contain;
+}
+
+#trip .mbti .picture .more_button{
+  width: 348px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#trip .mbti .picture .more_button input{
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  color: #808080;
+  font-weight: bold;
+  border: 1px solid #dfdfdf;
+  background: white;
+  border-radius: 8px;
+}

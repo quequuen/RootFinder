@@ -1,0 +1,61 @@
+
+html,body{
+   height: 90%;
+}
+
+#wrap{
+   height: auto;
+   min-height: 100%;
+   padding-bottom: 300px;
+}
+
+footer{
+  position:relative;
+   transform: translateY(-100%);
+   
+}
+.underline{
+  position: relative;
+  background: #45454f;
+  text-align: left;
+  height:160px;
+}
+
+.underline .underline_inner{
+  padding: 32px 10px 40px 190px;
+  max-width: 1100px;
+  min-width: 960px;
+}
+
+.underline .underline_inner .underline_logo{
+  position: absolute;
+  left: 35px;
+  top: 40px;
+  width: 250px;
+  height: 63px;
+  background: url(../image/logo.png) no-repeat;
+  background-size: contain;
+}
+
+.underline .underline_inner .underline_copyright{
+  font-size: 13.5px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #86868c;
+}
+
+.underline .underline_inner .underline_copyright .copy_right_info{
+  padding: 0;
+}
+
+.underline .underline_inner .underline_copyright .copy_right_info ul{
+   display: block;
+}
+.underline .underline_inner .underline_copyright .copy_right_info li{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  margin: 10px;
+}

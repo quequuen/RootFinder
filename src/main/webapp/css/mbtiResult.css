@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+body{
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	position: relative;
+	
+}
+.mbti_result{
+	position:absolute;
+	top:400px;
+	left:380px;
+}
+.mbti_text{
+	font-size: 24px
+}
+.mbti_text strong{
+	color:red;
+	font-size:36px
+}

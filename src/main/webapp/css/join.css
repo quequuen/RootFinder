@@ -1,0 +1,99 @@
+@charset "EUC-KR";
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 820px;
+    height: 960px;
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 0px;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container .membership h2{
+    width: 466px;
+    height: 94px;
+    left: 725px;
+    top: 132px;
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+}
+
+.container .membership tr{
+    height: 60px;
+}
+
+.text_box{
+    padding: 0px;
+    border: 1px solid black;
+    border-bottom: 1px solid #CFCFCF;
+    width: 306px;
+    height: 30px;
+}
+
+.login_button{
+    width: 100px;
+    height: 50px;
+    left: 725px;
+    top: 875px;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 8px;
+    border: black solid 1px;
+}
+
+.mbti_choose{
+    width: 100px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.overlap{
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.birth{
+    padding: 0px;
+    border: 1px solid black;
+    border-bottom: 1px solid #CFCFCF;
+    min-width: 120px;
+    height: 30px;
+}
+.birth2{
+    padding: 0px;
+    border: 1px solid black;
+    border-bottom: 1px solid #CFCFCF;
+    min-width: 20px;
+    height: 30px;
+}
+
+.mbti_text{
+    padding: 0px;
+    border: 1px solid black;
+    border-bottom: 1px solid #CFCFCF;
+    min-width: 120px;
+    height: 30px;
+};
+
+
+

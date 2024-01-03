@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.mypage_main_menu{
+	padding-top: 100px;
+}
+
+.profile {
+	width: 100%;
+}
+
+#profile_image {
+	
+}
+
+/* 텍스트 중앙 정렬 */
+.profile h1 {
+	text-align: center;
+}
+
+/* 헤더 */
+.mypage {
+	overflow: hidden;
+	background-color: #03254C;
+	font-family: Arial;
+}
+
+/* 헤더 텍스트 */
+.mypage a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* 헤더 메뉴에 포인터를 올려놓으면 */
+.mypage a:hover {
+	background-color: skyblue;
+}

@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lining {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 50px;
+    height: 1520px;
+}
+
+.container h1 {
+    font-size: 2.5em
+}
+
+.i_E {
+    margin-top: 30px;
+
+}
+
+.i_E b {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.radio_div {
+    width: 100%;
+    text-align: start;
+}
+
+.radio_main_div {
+    width: 100%;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.mbti_set input {
+    width: 50px;
+    height: 30px;
+}
