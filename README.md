@@ -6,7 +6,7 @@
 - 기간: 2023.09. ~ 2023. 10.
 - 내용: MBTI와 나이 등의 정보를 활용하여 비슷한 사용자에게 여행 경로를 추천해주는 여행 경로 공유 사이트
 - IDE: ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-- 언어: Java, Java Script, JSP, HTML, CSS
+- 언어: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white), ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E), JSP, HTML, CSS
 - 데이터베이스: Oracle DB
 - 역할: 로그인/회원가입, 코스 상세 보기(개요, 일정표, 댓글), 관리자 페이지(댓글 수정, 삭제), 프로젝트 발표
 - 후기
