@@ -6,8 +6,8 @@
 - 기간: 2023.09. ~ 2023. 10.
 - 내용: MBTI와 나이 등의 정보를 활용하여 비슷한 사용자에게 여행 경로를 추천해주는 여행 경로 공유 사이트
 - IDE: ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-- 언어: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white), ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E), ![Java](https://img.shields.io/badge/jsp-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white), ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), CSS
-- 데이터베이스: Oracle DB
+- 언어: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white), ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E), ![Java](https://img.shields.io/badge/jsp-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white), ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- 데이터베이스: ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 - 역할: 로그인/회원가입, 코스 상세 보기(개요, 일정표, 댓글), 관리자 페이지(댓글 수정, 삭제), 프로젝트 발표
 - 후기
   - MVC 패턴 방식 중 Model 2 방식을 활용하여 프로젝트를 진행하였는데 간단히 이분법적으로 JSP와 Servlet으로 나누어 개발하여 MVC에 대한 기초를 세웠다.
